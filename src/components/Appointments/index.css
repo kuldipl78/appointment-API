@@ -1,0 +1,88 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to top, #fbc7d4, #9796f0);
+}
+
+.Appointment-container {
+  border-radius: 15px;
+  background-color: white;
+  width: 90%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.input-label {
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  color: rgb(146, 141, 141);
+}
+
+.date-label {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 16px;
+  color: rgb(146, 141, 141);
+}
+
+.add-button {
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: #5452c2;
+  padding: 10px;
+  margin-top: 15px;
+  width: 80px;
+}
+
+.appointment-img {
+  height: 250px;
+}
+
+.started-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-Element {
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: solid 2px rgb(94, 94, 239);
+  color: rgb(77, 77, 208);
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
